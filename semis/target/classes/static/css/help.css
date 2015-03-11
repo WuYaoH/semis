@@ -1,0 +1,156 @@
+@CHARSET "UTF-8";
+
+body {
+	line-height: 180%;
+}
+
+h2 {
+	font-size: 100%;
+	color: #000000
+}
+
+h3 {
+	font-size: 100%;
+	color: #000000;
+}
+
+a:link, a:visited {
+	color: #0B5792;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #555555;
+	text-decoration: none;
+}
+
+/*SIZE SETUP*/
+#set_left_content, #set_footer, #set_top_menu {
+	width: 800px;
+	margin: 0 auto;
+	text-align: left;
+}
+/*END*/
+
+/*BANNER*/
+#set_header {
+	background: transparent url('../images/header.gif') top center no-repeat;
+	font-family: "Trebuchet MS";
+	text-align: left;
+	text-indent: 20px;
+	border-top: thin;
+	border-top-color: #000000;
+	border-style: solid;
+	border-bottom: thin;
+	border-bottom-color: #000000;
+	border-left: none;
+	border-right: none;
+	color: #FFFFFF;
+	width: 775px;
+	height: 200px;
+	margin: 0 auto;
+}
+/*BANNER*/
+
+/* LEFT SHADOW */
+#set_left_content {
+	background: white url('../images/shadow-left.gif') repeat-y left top;
+}
+/*END*/
+/* RIGHT SHADOW */
+#set_right_content {
+	background: transparent url('../images/shadow-right.gif') repeat-y right
+		top;
+	padding: 5px 20px 5px 220px;
+}
+/*END*/
+
+/*BODY CONTENTS*/
+#contents {
+	padding: auto 12px;
+	font-family: "verdana";
+	font-size: 90%;
+	text-decoration: none;
+	line-height: 20px;
+	text-align: left;
+}
+
+#contents p {
+	text-indent: 20px;
+}
+/*END */
+
+/*INTERNAL LINKS */
+#set_menu {
+	float: left;
+	width: 180px;
+	margin: 20px 5px 3em 1em;
+	text-align: center;
+	font-family: "verdana";
+}
+
+#menu {
+	padding-top: 5px;
+	float: left;
+	width: 180px;
+	margin: auto;
+	background: transparent url('../images/headingtop.gif') no-repeat;
+	text-align: center;
+	line-height: 140%;
+	font-family: "verdana";
+}
+
+#menu h3 {
+	text-transform: uppercase;
+	color: #555555;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 90%;
+}
+
+#menu a:link, #menu-page a:visited {
+	color: #555555;
+}
+
+#menu a:hover {
+	color: #000000;
+	text-decoration: underline;
+}
+/*END*/
+
+/*NEWS AND UPDATES*/
+#set_display {
+	padding-top: 5px;
+	float: left;
+	width: 180px;
+	background: transparent url('../images/headingtop.gif') no-repeat;
+	text-align: center;
+	font-family: "verdana";
+}
+#set_display ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 90%;
+}
+#set_display h3 {
+	text-transform: uppercase;
+	color: #555555;
+}
+/*END*/
+
+/*FOOTER*/
+#footer {
+	margin: 30px auto;
+	background: transparent url('../images/spacer.gif') no-repeat center top;
+	border-bottom: 0;
+	clear: both;
+	font-size: 70%;
+	color: #000000;
+	text-align: center;
+}
+/*END*/
